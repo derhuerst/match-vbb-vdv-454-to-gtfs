@@ -1,0 +1,35 @@
+{
+	"private": true,
+	"name": "match-vbb-vdv-454-to-gtfs",
+	"description": "Match VBB's VDV-454 data with GTFS Static data, even if they don't share IDs.",
+	"version": "1.0.0",
+	"main": "index.js",
+	"keywords": [
+		"vdv-454",
+		"vdv-453",
+		"gtfs",
+		"id",
+		"public transport",
+		"transit"
+	],
+	"author": "Jannis R <mail@jannisr.de>",
+	"homepage": "https://github.com/derhuerst/match-vbb-vdv-454-to-gtfs",
+	"repository": "derhuerst/match-vbb-vdv-454-to-gtfs",
+	"bugs": "https://github.com/derhuerst/match-vbb-vdv-454-to-gtfs/issues",
+	"license": "ISC",
+	"engines": {
+		"node": ">=18"
+	},
+	"dependencies": {
+	},
+	"devDependencies": {
+		"eslint": "^8.2.0",
+		"tap-min": "^2.0.0",
+		"tape": "^5.0.0"
+	},
+	"scripts": {
+		"test": "echo todo; exit 1",
+		"lint": "eslint .",
+		"prepublishOnly": "npm run lint && npm test"
+	}
+}
